@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: #f7f8f8;
+    height: 150px;
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    display: flex;
+}
+.nav-item{
+    margin-left: 20px;
+    padding: 15px;
+    margin-top: 10px;
+     display: flex;
+}
+#icon{
+    /* padding: 10px; */
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+.fas{
+    /* border-radius: 60px; */
+    /* border: 1px solid #4c5353; */
+    /* padding: 10px; */
+    color: black;
+    box-sizing: inherit;
+    opacity: 0.6;
+}
+.far{
+    /* border-radius: 20px; */
+    /* border: 1px solid #4c5353; */
+    /* padding:10px; */
+    color: black;
+    box-sizing: inherit;
+    opacity: 0.6;
+}
+.moto{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#search{
+    margin-left: 30px;
+    margin-top: 20px;
+     display: flex;
+}
+.inputbox1{
+    border: 2px solid #002f34;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    height: 45px;
+     border-radius: 5px;
+     /* margin-top: 10px; */
+     background-color: white;
+}
+.inputbox1 input{
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    outline: 0;
+}
+.inputbox2{
+    border: 2px solid #002f34;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    height: 45px;
+     border-radius: 5px;
+     /* margin-top: 10px; */
+     background-color: white;
+}
+.inputbox2 input{
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    outline: 0;
+    width: 100%;
+} 
+.searchbox{
+    width: 60px;
+    height: 45px;
+    background-color: #002f34;
+    color: white;
+}
+.login{
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'Anton', sans-serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.btn{
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.plus{
+    position: absolute;
+    text-align: center;
+    left: 80px;
+    top: 15px;
+    cursor: pointer;
+}
+.plus,span{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    box-sizing: inherit;
+}
+#categories{
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+      color: #002f34;
+      background-color: white;
+      height: 50px;
+      display: flex;
+}
+.all{
+    /* margin-top: 20px; */
+    margin-left: 30px;
+    display: flex;
+}
+.name1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #002f34;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.name2{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.singal{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+.minipic{
+    display: flex;
+    width: 100%;
+}
+.bold{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.bold2{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.sale{
+    margin-left: 25px;
+}
+.sale1{
+    margin-left: 15px;
+}
+.sale2{
+    margin-left: 10px;
+}
+.sale-1{
+    margin-left: 10px;
+}
+.sale-2{
+    margin-left: 5px;
+}
+.bold1{
+    margin-left: 25px;
+}
+.pic1{
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.pic2{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.minipic-2{
+    display: flex;
+    width: 100%;
+}
+.pic3{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.singal2{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 45px;
+    color: #002f34;
+}
+#display{
+    display: flex;
+}
+#card{
+    border: 2px solid #dadada;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.imgtext{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.days{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.cardimg2{
+    margin-left: 35px;
+}
+#olx{
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    color: #002f34;
+    background-color: white;
+    height: 200px;
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+}
+.olximg{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+.olximg,h1{
+    margin-top: 30px;
+}
+.line{
+    margin-top: 10px;
+    font-size: 150px;
+    color: #dadada;
+}
+.ready{
+      margin-top: 60px;
+}
+.google{
+    display: flex;
+}
+#footer{
+    background-color: #f7f8f8;
+    height: 300px;
+    width: 100%;
+    border-top: 1px solid #dadada;
+    display: flex;
+}
+.foot{
+    color: #002f34;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.foot,h2{
+    font-size: 20px;
+}
+.foot,p{
+    margin-top: 10px;
+}
